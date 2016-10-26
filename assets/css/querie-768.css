@@ -1,0 +1,76 @@
+@media all and (min-width: 641px) and (max-width: 768px) {
+  * {
+    font-size: 1.2rem;
+  }
+  #navCheckBars i {
+    font-size: 2rem;
+    color: #bbb;
+  }
+  h3 {
+    color: #3a538a;
+    font-size: 1.5rem;
+  }
+  p {
+    padding: .5rem 0rem;
+  }
+  #main {
+    text-align: center;
+    width: 100%;
+  }
+  header {
+    background: white;
+    box-shadow: 0px 2px 1px #999;
+    width: 100%;
+  }
+  header img {
+    width: 272px;
+  }
+  #navCheckBars {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  #navCheck {
+    display: none;
+  }
+  #navCheck:checked ~ nav {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  nav ul {
+    width: 100%;
+  }
+  nav li {
+    background: white;
+    z-index: 9999;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+  }
+  nav li a {
+    text-decoration: none;
+  }
+  .bloque-cont {
+    padding: 2rem 0rem;
+    width: 100%;
+  }
+  #rutas-ciudadano {
+    width: 100%;
+  }
+  #rutas-ciudadano img {
+    width: 50%;
+    opacity: .8;
+  }
+  #sec-main {
+    padding: 0px;
+    margin: 0px;
+  }
+  .caja-flex-horizontal {
+    width: 100%;
+  }
+  ._sideB img, ._sideA img {
+    width: 80%;
+  }
+}
