@@ -1,0 +1,203 @@
+<?php ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <title>Plataforma Tecnológica Multiservicios</title>
+
+</head>
+<body>
+    <div id="main">
+        <header>
+            <img src="assets/image/logo-ptm.png" alt="Logo PTM">
+            <input type="checkbox" name="" id="navCheck">
+            <label for="navCheck" id="navCheckBars"><i class="fa fa-bars" aria-hidden="true"></i></label>
+            <nav>
+                <ul id="_pmenu">
+                    <li><a href="#contenido-dos">¿Qué es CIUDADANO DiGiTAL?</a></li>
+                    <li><a href="#contenido-tres">Rutas de aprendizaje</a></li>
+                    <li><a href="#contenido-cuatro">¿Por qué formarte?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="sec-main">
+           <a name="Form1"></a>
+            <div class="bloque-cont" id="contenido-uno">
+                <div class="subbloque-cont">
+                    <div id="caja-formulario" class="estilo-formularios">
+                        <form action="mailer.php" method="post">
+                            <div class="campo-formulario">
+<!--                                <label for="">Nombre</label>-->
+                                <input type="text" value="" name="nombre" id="campo-formulario-nombre" placeholder="Nombre:" class="input-form" required>
+                            </div>
+                            <div class="campo-formulario">
+<!--                                <label for="">Correo</label>-->
+                                <input type="email" value="" name="correo" id="campo-formulario-correo" placeholder="Correo:" class="input-form" required>
+                            </div>
+                            <div class="campo-formulario">
+<!--                                <label for="">Teléfono</label>-->
+                                <input type="tel"  value="" name="tel" placeholder="Teléfono:" id="campo-formulario-tel" class="input-form" required>
+                            </div>
+                            <div class="campo-formulario">
+<!--                                <label for="">Barrio</label>-->
+                                <input type="text" value="" name="barrio" id="campo-formulario-tel" placeholder="Barrio:" class="input-form" required>
+                            </div>
+                            <div class="campo-formulario">
+<!--                                <label for="">Taller</label>-->
+                                <select name="" id="taller">
+                                   <option value="" selected disabled>---- Elegir Taller ----</option>
+                                    <option value="">Optimización del tiempo en el trabajo</option>
+                                </select>
+                            </div>
+                            <div class="campo-formulario">
+<!--                                <label for="">Día y hora</label>-->
+                                <select name="" id="agenda">
+                                   <option value="" selected disabled>---- Elegir Horario ----</option>
+                                    <option value="">Viernes 24 Noviembre - 07:00 a.m. a 05:00 p.m.</option>
+                                    <option value="">Viernes 24 Noviembre - 07:00 a.m. a 05:00 p.m.</option>
+                                    <option value="">Viernes 24 Noviembre - 07:00 a.m. a 05:00 p.m.</option>
+                                    <option value="">Viernes 24 Noviembre - 07:00 a.m. a 05:00 p.m.</option>
+                                    <option value="">Viernes 24 Noviembre - 07:00 a.m. a 05:00 p.m.</option>
+                                </select>
+                            </div>
+                            <div class="campo-formulario">
+                                <input type="submit" value="Enviar" id="campo-formulario-enviar" class="button-form">
+                            </div>                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--            -->
+            <div class="bloque-cont" id="contenido-dos">
+                <div class="subbloque-cont">
+                    <div id="caja-contenido-dos" class="caja-flex-horizontal">
+                        <div class="_sideA">
+                            <h3>Non risu potius quam</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, atque qui hic numquam necessitatibus vel quos mollitia provident eveniet in reiciendis veritatis ratione esse illum, aliquid, repudiandae soluta expedita at.</p>
+                            <a href="#Form1" id="btn-registro-cdos" class="button-form">Regístrate</a>
+                        </div>
+                        <div class="_sideB">
+                            <img src="assets/image/mujerciudadanodigital.png" alt="Imagen contenido 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            -->
+            <div class="bloque-cont" id="contenido-tres">
+                <div class="subbloque-cont">
+                    <div id="caja-contenido-tres">
+                       <h3>Rutas de Ciudadano DiGiTAL</h3>
+                        <div class="caja-flex-horizontal">
+                            <ul id="rutas-ciudadano">
+                                <li><img src="assets/image/1.png" alt="Imagen Rutas"></li>
+                                <li><img src="assets/image/2.png" alt="Imagen Rutas"></li>
+                                <li><img src="assets/image/3.png" alt="Imagen Rutas"></li>
+                                <li><img src="assets/image/4.png" alt="Imagen Rutas"></li>
+                                <li><img src="assets/image/5.png" alt="Imagen Rutas"></li>
+                                <li><img src="assets/image/6.png" alt="Imagen Rutas"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            -->
+            <a name="contenido-cuatro"></a>
+            <div class="bloque-cont" id="contenido-dos">
+                <div class="subbloque-cont">
+                    <div id="caja-contenido-dos" class="caja-flex-horizontal">
+                       <div class="_sideA">
+                            <img src="assets/image/banner-1.jpg" alt="Imagen contenido 2">
+                        </div>
+                        <div class="_sideB">
+                            <h3>Non risu potius quam</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, atque qui hic numquam necessitatibus vel quos mollitia provident eveniet in reiciendis veritatis ratione esse illum, aliquid, repudiandae soluta expedita at.</p>
+                            <a href="#Form2" id="btn-registro-cdos" class="button-form">Regístrate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            -->
+        </div>
+        <footer>
+           <a name="Form2"></a>
+            <div class="subbloque-cont">
+                    <div id="caja-contenido-cuatro" class="caja-flex-horizontal">
+                       <div class="_sideA">
+                            <img src="assets/image/logo-ptm.png" alt="Logo PTM Footer">
+                        </div>
+                        <div class="_sideB">
+                            <div id="caja-formulario" class="estilo-formularios">
+                    <form enctype="application/x-www-form-urlencoded" action="http://boletines.ptm.com.co/ccm/subscribe/index/form/gohslwa05e" method="post">
+                        <dl class="zend_form">
+                         <dt id="groups-label"> </dt>
+                         <dd id="groups-element">
+                         <input type="hidden" name="groups[]" value="17"></dd>
+                         <dt id="name-label">
+                         <label for="name" class="optional">Nombre</label>
+                         </dt>
+                         <dd id="name-element">
+                         <input type="text" name="name" id="name" value=""></dd>
+                         <dt id="email-label">
+                         <label for="email" class="required">Email</label>
+                         </dt>
+                         <dd id="email-element">
+                         <input type="text" name="email" id="email" value=""></dd>
+                         <dt id="f_1-label">
+                         <label for="f_1" class="optional">Telefono</label>
+                         </dt>
+                         <dd id="f_1-element">
+                         <input type="text" name="f_1" id="f_1" value=""></dd>
+                         <dt id="f_3-label">
+                         <label for="f_3" class="optional">barrio</label>
+                         </dt>
+                         <dd id="f_3-element">
+                         <input type="text" name="f_3" id="f_3" value=""></dd>
+                         <dt id="f_4-label">
+                         <label for="f_4" class="optional">taller</label>
+                         </dt>
+                         <dd id="f_4-element">
+                         <select name="f_4" id="f_4">
+                          <option value="0">Optimización del tiempo en el trabajo
+                          </option>
+                         </select>
+                         </dd>
+                         <dt id="f_5-label">
+                         <label for="f_5" class="optional">horario</label>
+                         </dt>
+                         <dd id="f_5-element">
+                         <select name="f_5" id="f_5">
+                          <option value="0">Viernes 21 - 08:00 a 17:00
+                          </option>
+                          <option value="1">Viernes 28 - 08:00 a 17:00
+                          </option>
+                          <option value="2">Viernes 4 - 08:00 a 17:00
+                          </option>
+                          <option value="3">Viernes 11 - 08:00 a 17:00
+                          </option>
+                         </select>
+                         </dd>
+                         <dt id="submit-label"> </dt>
+                         <dd id="submit-element">
+                         <input type="submit" name="submit" id="submit" value="Suscribir"></dd>
+                         <dt id="successUrl-label"> </dt>
+                         <dd id="successUrl-element">
+                         <input type="hidden" name="successUrl" value="http://ptm.com.co/escuelaptm/" id="successUrl"></dd>
+                         <dt id="errorUrl-label"> </dt>
+                         <dd id="errorUrl-element">
+                         <input type="hidden" name="errorUrl" value="http://ptm.com.co/escuelaptm/error" id="errorUrl"></dd>
+                         <dt id="confirmationUrl-label"> </dt>
+                         <dd id="confirmationUrl-element">
+                         <input type="hidden" name="confirmationUrl" value="http://ptm.com.co/escuelaptm/" id="confirmationUrl"></dd>
+                        </dl>
+                    </form>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>
